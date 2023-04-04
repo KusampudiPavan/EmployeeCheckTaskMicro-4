@@ -22,7 +22,7 @@ class EmployeeCheckTasksAndUpdateProgessMicroserviceApplicationTests {
     
     @Test
     @Order(1)
-    public void testLogin() {
+    public void testupdatetask() {
         String jsonbody= "{\"status\" : \"100\"}";
         String token=given()
                 .header("Content-type","application/json").contentType(ContentType.JSON).accept(ContentType.JSON)
